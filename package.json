@@ -1,0 +1,23 @@
+{
+  "name": "path-parse-plus",
+  "version": "1.0.0",
+  "description": "path.parse拓展",
+  "main": "index.js",
+  "types": "./index.d.ts",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yinjiazeng/path-parse-plus.git"
+  },
+  "author": "yinjiazeng",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/yinjiazeng/path-parse-plus/issues"
+  },
+  "homepage": "https://github.com/yinjiazeng/path-parse-plus#readme",
+  "devDependencies": {
+    "jest": "^25.3.0"
+  }
+}
