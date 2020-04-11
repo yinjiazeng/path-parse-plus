@@ -18,7 +18,7 @@ const pathParse = function(p) {
   }
 
   const file = name + ext;
-  const path = join(dir, file);
+  const path = dir === '.' ? dir + '/' + file : join(dir, file);
 
   return Object.assign(parsedResult, {
     ext,
