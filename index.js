@@ -1,10 +1,10 @@
-const { parse } = require('path');
+const { parse, join } = require('path');
 
 const pathParse = function(p) {
   const parsedResult = parse(p);
   let { dir, ext, name } = parsedResult;
   let query = '';
-  const str = (ext || name);
+  const str = ext || name;
   const queryIndex = str.indexOf('?');
 
   if (queryIndex !== -1) {
@@ -18,7 +18,7 @@ const pathParse = function(p) {
   }
 
   const file = name + ext;
-  const path = dir + '/' + file;
+  const path = join(dir, file);
 
   return Object.assign(parsedResult, {
     ext,

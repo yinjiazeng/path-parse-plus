@@ -1,7 +1,7 @@
 {
   "name": "path-parse-plus",
-  "version": "1.0.0",
-  "description": "path.parse拓展",
+  "version": "1.0.1",
+  "description": "拓展 node path.parse 方法返回结果，增加了 query file path 字段。",
   "main": "index.js",
   "types": "./index.d.ts",
   "scripts": {
@@ -19,5 +19,9 @@
   "homepage": "https://github.com/yinjiazeng/path-parse-plus#readme",
   "devDependencies": {
     "jest": "^25.3.0"
-  }
+  },
+  "keywords": [
+    "pathparse",
+    "path-parse"
+  ]
 }
